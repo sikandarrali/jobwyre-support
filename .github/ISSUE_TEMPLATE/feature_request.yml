@@ -1,0 +1,45 @@
+name: ✨ Feature request
+description: Suggest something that would make jobwyre more useful.
+title: "[Feature]: "
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for the suggestion — before filing, please
+        [search existing issues](https://github.com/sikandarrali/jobwyre-support/issues) in
+        case someone's already asked for this. A 👍 on an existing request helps more than a
+        duplicate.
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: What problem are you running into?
+      description: Describe the problem or friction, not the solution yet — it's easier to design around a problem than a specific ask.
+      placeholder: I can't tell at a glance which applications are waiting on me vs. the recruiter.
+    validations:
+      required: true
+
+  - type: textarea
+    id: solution
+    attributes:
+      label: What would you like to happen?
+      description: Your proposed solution, if you have one in mind.
+    validations:
+      required: true
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives considered
+      description: Any workarounds you're using today, or other approaches you thought about.
+    validations:
+      required: false
+
+  - type: textarea
+    id: context
+    attributes:
+      label: Anything else?
+      description: Screenshots, mockups, or links that help explain the idea.
+    validations:
+      required: false
