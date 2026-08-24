@@ -11,6 +11,18 @@ body:
         case someone's already asked for this. A 👍 on an existing request helps more than a
         duplicate.
 
+  - type: dropdown
+    id: plan
+    attributes:
+      label: Plan
+      description: Which jobwyre plan are you on?
+      options:
+        - Free
+        - Pro
+        - API
+    validations:
+      required: true
+
   - type: textarea
     id: problem
     attributes:
