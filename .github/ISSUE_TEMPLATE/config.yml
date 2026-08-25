@@ -1,5 +1,5 @@
 blank_issues_enabled: false
 contact_links:
   - name: 💬 Other feedback / account / billing questions
-    url: https://jobwyre.app
-    about: Not a bug or feature request? Use the contact form in the app instead.
+    url: https://jobwyre.app/?contact=1#contact
+    about: Not a bug or feature request? Opens the contact form in the app.
