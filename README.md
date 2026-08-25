@@ -30,6 +30,13 @@ and your device/browser. Screenshots help a lot for anything visual.
 The form asks for the problem you're running into before the solution — it's easier to
 design around a problem than a specific ask.
 
+## 🗺️ Feature pipeline
+
+Track requested features from backlog to shipped on the
+[**Feature Pipeline**](https://github.com/users/sikandarrali/projects/1) board. When a
+feature ships, it's noted in [CHANGELOG.md](CHANGELOG.md) along with the version it
+landed in.
+
 ## 🔎 Before opening a new issue
 
 Please [search existing issues](https://github.com/sikandarrali/jobwyre-support/issues) first —
